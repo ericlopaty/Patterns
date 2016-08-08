@@ -10,6 +10,11 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
+            FactoryPattern.DemoFactoryPattern f = new FactoryPattern.DemoFactoryPattern();
+            f.Run();
+
+
+            Console.ReadLine();
         }
     }
 }
